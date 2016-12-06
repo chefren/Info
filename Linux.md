@@ -10,3 +10,7 @@
 This also creates a `.npmrc` file in our home directory. Then install npm in the local path.
 
 `npm install npm --global`
+
+Finally add new npm to path in .bashrc
+
+`$HOME/.node_modules_global/bin:$PATH`
