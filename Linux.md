@@ -1,3 +1,11 @@
+# BASH
+## ˜/.bashrc
+### git
+The following executes every time to alter the current shell location to add the branch on current git repo folder
+
+    _git_branch='`git branch 2> /dev/null | grep -e ^* | sed -E s/^\\\\\*\ \(.+\)$/\(\\\\\1\)\/`'
+    export PS1="$PS1$_git_branch"
+
 # JavaScript
 ## NPM
 - [Tutorial](https://www.sitepoint.com/beginners-guide-node-package-manager/)
