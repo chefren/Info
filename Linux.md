@@ -5,6 +5,11 @@ The following executes every time to alter the current shell location to add the
 
     _git_branch='`git branch 2> /dev/null | grep -e ^* | sed -E s/^\\\\\*\ \(.+\)$/\(\\\\\1\)\/`'
     export PS1="$PS1$_git_branch"
+- [Other handy bashrc settings](https://github.com/magicmonty/bash-git-prompt)
+
+# GIT
+- [Cheat sheet](https://gist.github.com/akras14/3d242d80af8388ebca60)
+- [bisect](https://git-scm.com/docs/git-bisect): handy for binary searching commit that broke things
 
 # JavaScript
 ## NPM
