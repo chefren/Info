@@ -1,4 +1,10 @@
-# BASH
+# Table of Contents
+1. [BASH](#bash)
+1. [GIT](#git)
+1. [JS](#javascript)
+1. [Salt](#saltstack)
+
+# <a name="bash">BASH</a>
 ## ˜/.bashrc
 ### git
 The following executes every time to alter the current shell location to add the branch on current git repo folder
@@ -7,11 +13,11 @@ The following executes every time to alter the current shell location to add the
     export PS1="$PS1$_git_branch"
 - [Other handy bashrc settings](https://github.com/magicmonty/bash-git-prompt)
 
-# GIT
+# <a name="git">GIT</a>
 - [Cheat sheet](https://gist.github.com/akras14/3d242d80af8388ebca60)
 - [bisect](https://git-scm.com/docs/git-bisect): handy for binary searching commit that broke things
 
-# JavaScript
+# <a name="javascript">JavaScript</a>
 ## NPM
 - [Tutorial](https://www.sitepoint.com/beginners-guide-node-package-manager/)
 
@@ -28,7 +34,7 @@ Finally add new npm to path in .bashrc
 
 `$HOME/.node_modules_global/bin:$PATH`
 
-# Saltstack
+#  <a name="saltstack">Saltstack</a>
   Salt - ZeroMQ or RAET transport - Upgrade master always first
 ## Basic https://docs.saltstack.com/en/latest/topics/tutorials/walkthrough.html
 ## States: https://docs.saltstack.com/en/latest/topics/tutorials/walkthrough.html#salt-states
